@@ -3,8 +3,8 @@ namespace FTM_AI_Search;
 
 if (!defined('ABSPATH')) exit;
 
-require_once FTM_AI_SEARCH_PATH . 'includes/class-ftm-ai-settings.php';
-require_once FTM_AI_SEARCH_PATH . 'includes/class-ftm-ai-rest.php';
+require_once FTM_AI_SEARCH_PATH . 'includes/class-ai-settings.php';
+require_once FTM_AI_SEARCH_PATH . 'includes/class-ai-rest.php';
 
 final class Plugin {
     private static $instance = null;
